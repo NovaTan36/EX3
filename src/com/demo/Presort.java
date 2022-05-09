@@ -54,8 +54,10 @@ public class Presort {
             }
             else
             {
+                /*
                 i++;                                        //
                 flag++;
+                 */
             }
             if (i==head.length)break;               //头队列为空时尾队列不用赋值，其本身就在主队列
             if (end==allEnd)                        //尾队列为空时如果头队列有剩余全部赋值会主队列
@@ -63,6 +65,7 @@ public class Presort {
                 for (int last=i;i< head.length;i++)
                 {
                     numbers[flag]=head[i];
+
                 }
             }
         }
